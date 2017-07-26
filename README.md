@@ -1,5 +1,7 @@
 # AFG
 
+![#AFG Inc.](https://docs.google.com/drawings/d/1gc0uAhbrJFXKDW2oLda-CehtOaTjjP0JjzcRlfQRsqQ/pub?w=1439&h=552)
+
 A composable application that simulates an Autonomous Floating Greenhouse.
 
 This repository is a collection of simulated sensors and hubs that can be
