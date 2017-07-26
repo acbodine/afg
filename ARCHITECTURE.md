@@ -1,6 +1,6 @@
 # AFG Architecture
 
-![AFG Architecture](./architecture.png)
+![AFG Architecture](https://docs.google.com/drawings/d/1hm6LkILo-KBQCVLnKG1qE1QFxVAyM3rVXBUpEy45k0k/pub?w=537&h=440)
 
 AFGs have an intentionally simplistic architecture. The basic components are
 `Sensors` and `Controllers`, both of which are decoupled from one another via
