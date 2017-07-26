@@ -1,0 +1,31 @@
+version: "2"
+
+networks:
+    onboard:
+        driver: bridge
+
+services:
+    broker:
+        image: eclipse-mosquitto
+        volumes:
+            - ./broker/mosquitto.conf:/mosquitto/config/mosquitto.conf
+        networks:
+            - onboard
+        ports:
+            - 1883:1883
+    # controller:
+    #     image: afg/controller
+    #     networks:
+    #         - onboard
+    # sensor-atmosphere:
+    #     image: afg/sensor
+    #     networks:
+    #         - onboard
+    # sensor-solar:
+    #     image: afg/sensor
+    #     networks:
+    #         - onboard
+    # sensor-power:
+    #     image: afg/sensor
+    #     networks:
+    #         - onboard
